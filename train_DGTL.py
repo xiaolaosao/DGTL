@@ -211,7 +211,7 @@ def train_DGTLGCN():
             stop = 0
         if stop > 50:
             break
-        print('test{}:  map={} best_map={} best_auc={} best_e={}'.format(e, map, best_map, best_auc, best_e))
+        print('test{}:  map={} best_map={} best_auc={} best_e={}'.format(e + 1, map, best_map, best_auc, best_e))
         stop += 1
 
 
